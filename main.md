@@ -170,12 +170,6 @@ Definições de predicados/funções | Arma(x, y): x é arma de y
 
 <br />
 
-Frase | Todas as armaduras construidas por Tony Stark são muito tecnologicas e possuem armas.
------------- | -------------
-Fórmula | Ɐx(Construiu (“Tony Stark”, x) → (Tecnologica(x) Λ Possui(x, "armas"))
-Definições de predicados/funções | Tecnologica(x): x é muito tecnologica <br /> Possui(X, Y): x possui y
-
-<br />
 
 Frase | Todos as armaduras do homem de ferro são mais caras do que qualquer carro popular
 ------------ | -------------
@@ -263,5 +257,27 @@ GostarM1 (vc6) = vc2
 GostarM1 (...) = vc12
 PropriedadeM1 (vc1, vc2) = vc5
 PropriedadeM1 (...,...) = v
+
+4. Predicados
+
+HeróiM1 = {vc1}
+HeróiM1 = {vc5} //duvida
+GênioM1 = {vc5}
+VilãoM1 = {vc8}
+VenceM1 = {vc1}
+TecnológicaM1 = {vc20}
+ArmaduraM1 = {vc19}
+CarroPopularM1 = {vc18}
+InimigosM1 = {(vc1, vc8)}
+NamoraM1 = {(vc3, vc7)}
+AmigosM1 = {(vc1, vc7)}
+
+SalvaM1 = {vc13}
+ConstruiuM1 = {(vc1, vc4)}
+ConheceM1 = {(vc2, vc10)}
+AjudaM1 = {(vc1, vc2, vc3)}
+PossuiM1 = {(vc1, vc2, vc3)}
+BatalhouM1 = {(vc1, vc2, vc3)}
+ArmaM1 = {(vc1, vc2, vc3)}
 
 ### 4.2 Exemplo de modelo que não satisfaz alguma das fórmulas(M2)
