@@ -257,11 +257,34 @@ PreçoM1 (vc9) = vc6
 
 PreçoM1 (...) = vc2    carropop
 
-TempoDerrotaM1 (vc) = vc1
+TempoDerrota<sup>M1</sup>(vc) = vc1
 TempoDerrotaM1 (vc2) = vc6
 GostarM1 (vc6) = vc2
 GostarM1 (...) = vc12
 PropriedadeM1 (vc1, vc2) = vc5
 PropriedadeM1 (...,...) = v
+
+<br />
+
+4. Predicados
+Herói<sup>M1</sup> = {vc1} <br />
+Herói<sup>M1</sup> = {vc5} //duvida <br />
+Gênio<sup>M1</sup> = {vc5} <br />
+Vilão<sup>M1</sup> = {vc8} <br />
+Vence<sup>M1</sup> = {vc1} <br />
+Tecnológica<sup>M1</sup> = {vc20} <br />
+Armadura<sup>M1</sup> = {vc19} <br />
+CarroPopular<sup>M1</sup> = {vc18} <br />
+Inimigos<sup>M1</sup> = {(vc1, vc8)} <br />
+Namora<sup>M1</sup> = {(vc3, vc7)} <br />
+Amigos<sup>M1</sup> = {(vc1, vc7)} <br />
+
+Salva<sup>M1</sup> = {vc13} <br />
+Construiu<sup>M1</sup> = {(vc1, vc4)} <br />
+Conhece<sup>M1</sup> = {(vc2, vc10)} <br />
+Ajuda<sup>M1</sup>= {(vc1, vc2, vc3)} <br />
+Possui<sup>M1</sup> = {(vc1, vc2, vc3)} <br />
+Batalhou<sup>M1</sup> = {(vc1, vc2, vc3)} <br />
+Arma<sup>M1</sup> = {(vc1, vc2, vc3)} <br />
 
 ### 4.2 Exemplo de modelo que não satisfaz alguma das fórmulas(M2)
